@@ -1,6 +1,8 @@
+/* Existing styles */
 body {
     font-family: Arial, sans-serif;
     text-align: center;
+    background-color: #f8f9fa; /* Light gray background */
 }
 
 h1 {
@@ -24,9 +26,19 @@ button {
 button:hover {
     background-color: #0056b3;
 }
+
 /* Add styles for new feature */
 #newFeature {
     color: green;
     font-weight: bold;
-    padding:20px;
+    padding: 20px;
+}
+
+/* Add styles for new section */
+#newSection {
+    margin-top: 20px;
+    background-color: #fff; /* White background */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
 }
