@@ -24,3 +24,8 @@ button {
 button:hover {
     background-color: #0056b3;
 }
+/* Add styles for new feature */
+#newFeature {
+    color: green;
+    font-weight: bold;
+}
